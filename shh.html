@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Secret Message For You</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700&display=swap");
+
+      body {
+        font-family: "Funnel Display", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f2f5;
+        color: #333333;
+      }
+
+      .email-wrapper {
+        background-color: #f0f2f5;
+        padding: 20px 0;
+      }
+
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+
+      .header-img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .main-content {
+        padding: 30px 50px 40px;
+        text-align: center;
+      }
+
+      .main-content h1 {
+        font-size: 24px;
+        line-height: 1.4;
+        font-weight: 600;
+        margin: 0 0 20px;
+        color: #212529;
+      }
+
+      .narrow-line {
+        width: 70%;
+        height: 2px;
+        transform: rotate(-2.5deg);
+        background-color: #212529;
+        margin: 0 auto 40px;
+      }
+
+      .text-left {
+        text-align: left;
+      }
+
+      .paragraph {
+        font-size: 16px;
+        color: #555555;
+        line-height: 1.6;
+        margin-bottom: 35px;
+      }
+
+      .message-box {
+        background-color: #f8f9fa;
+        border: 1px solid #232323;
+        border-radius: 20px;
+        padding: 30px;
+        margin-bottom: 35px;
+        text-align: left;
+      }
+
+      .message-box .greeting {
+        font-size: 16px;
+        font-weight: 600;
+        color: #343a40;
+        margin-bottom: 15px;
+      }
+
+      .message-box .message-body {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #495057;
+        margin-bottom: 25px;
+      }
+
+      .message-box .message-signature {
+        font-size: 14px;
+        font-style: italic;
+        color: #6c757d;
+      }
+
+      .cta-text {
+        font-size: 15px;
+        color: #495057;
+        margin-bottom: 20px;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background-color: #343a40;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 14px 35px;
+        text-decoration: none;
+        border-radius: 8px;
+        margin-bottom: 35px;
+      }
+
+      .salutation {
+        font-size: 16px;
+        color: #333333;
+        line-height: 1.6;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 12px;
+        color: #999999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr>
+          <td>
+            <div class="email-container">
+              <div>
+                <img
+                  src="https://ceebs.b-cdn.net/project-static-files/email_static/header.png"
+                  class="header-img"
+                  alt="Ceebs Header"
+                />
+              </div>
+
+              <div class="main-content">
+                <h1>
+                  Not saying who, but<br />someone left you<br />something...
+                </h1>
+                <div class="narrow-line"></div>
+
+                <div class="text-left">
+                  <p
+                    class="paragraph"
+                    style="
+                      font-weight: 600;
+                      color: #495057;
+                      margin-bottom: 20px;
+                    "
+                  >
+                    Oh hey!
+                  </p>
+                  <p class="paragraph">
+                    Psst... You've got a secret message on Ceebs, sent in
+                    silence, packed with meaning. We won't spill who it's from,
+                    but someone's got you on their mind.
+                  </p>
+                </div>
+
+                <div class="message-box">
+                  <div class="greeting">Hi Mia,</div>
+                  <div class="message-body">
+                    It's been a while and I've been meaning to say I'm truly
+                    sorry for what happened back then. Even if it wasn't
+                    entirely my fault, I still feel the need to apologize. I
+                    hope you're doing well and that life's treating you kindly.
+                  </div>
+                  <div class="message-signature">
+                    Someone you knew remembers you.
+                  </div>
+                </div>
+
+                <p class="cta-text">
+                  Want to explore more anonymous thoughts or share one of your
+                  own?
+                </p>
+
+                <a href="#" target="_blank" class="cta-button"> Try Ceebs </a>
+
+                <div class="text-left salutation">
+                  Scroll less. Connect more.<br />
+                  <strong>Team Ceebs</strong>
+                </div>
+              </div>
+              <div class="narrow-line"></div>
+
+              <div class="footer">&copy; 2025 Ceebs. All rights reserved.</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
